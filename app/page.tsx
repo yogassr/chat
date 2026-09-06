@@ -15,7 +15,7 @@ interface Message {
 }
 
 // Connect to the backend defined in .env.local or default to 5000
-const SOCKET_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+const SOCKET_URL = process.env.NEXT_PUBLIC_API_URL || 'https://chat-backend-xrvl.onrender.com';
 let socket: Socket;
 
 export default function SciFiChatPage() {
